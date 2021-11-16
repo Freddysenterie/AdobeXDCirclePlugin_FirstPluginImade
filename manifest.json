@@ -1,0 +1,24 @@
+{
+    "name":"Tuto Plugin XD",
+    "id":"000000000",
+    "version":"1.0.0",
+    "description":"Exemple de Plugin avec fonctions de base",
+    "languages": ["fr"],
+    "author": "Thomas MALACLET",
+    "helpUrl": "https://pornhub.com",
+    "icons": [
+        { "width": 24, "height": 24, "path": "images/icon24.png" },
+        { "width": 48, "height": 48, "path": "images/icon48.png" }
+    ],
+    "host":{
+        "app":"XD",
+        "minVersion":"13.0.0"
+     },
+     "uiEntryPoints": [
+         {
+             "type": "menu",
+             "label": "My Create Rectangle",
+             "commandId": "My Create Rectangle"
+         }
+     ]
+}
