@@ -5,7 +5,7 @@
     "description":"Exemple de Plugin avec fonctions de base",
     "languages": ["fr"],
     "author": "Thomas MALACLET",
-    "helpUrl": "https://pornhub.com",
+    "helpUrl": "https://github.com/",
     "icons": [
         { "width": 24, "height": 24, "path": "images/icon24.png" },
         { "width": 48, "height": 48, "path": "images/icon48.png" }
