@@ -5,7 +5,7 @@
     "description":"Exemple de Plugin avec fonctions de base",
     "languages": ["fr"],
     "author": "Thomas MALACLET",
-    "helpUrl": "https://github.com",
+    "helpUrl": "https://github.com/Freddysenterie/MyFirstAdobeXdPlugin/",
     "icons": [
         { "width": 24, "height": 24, "path": "images/icon24.png" },
         { "width": 48, "height": 48, "path": "images/icon48.png" }
@@ -16,24 +16,9 @@
      },
      "uiEntryPoints": [
          {
-             "type": "menu",
-             "label": "My Create Rectangle",
-             "commandId": "MyCreateRectangle"
-         },
-         {
-            "type": "menu",
-            "label": "CreateSquare",
-            "commandId": "CreateSquare"
-        },
-        {
-            "type": "menu",
-            "label": "Text Style",
-            "commandId": "TextStyle"
-        },
-        {
             "type": "menu",
             "label": "Draw Ellipse",
-            "commandId": "drawEllipse"
+            "commandId": "ellipse"
         }
      ]
 }
